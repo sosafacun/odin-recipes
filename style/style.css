@@ -1,10 +1,43 @@
 html {
-    background-color: #1B2021;
+    background-color: #34403A;
     font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #D1F5BE;
+h1, h2, h3, h4, h5, h6, a {
+    color: #EBFFED;
+}
+
+a {
+    text-decoration: none;
+}
+
+.recipe-item {
+    background-color: #285238;
+    list-style-type: none;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 20px;
+}
+
+.recipe-list {
+    list-style-type: none;
+    margin: 30px;
+    padding: 5px;
+    
+    background-color: #ECFF82;
+}
+
+.menu-item {
+    margin: 0 auto;
+    width: auto;
+    display: block;
+    text-align: center;
+}
+
+.index-header{
+    font-size: 50px;
+    text-align: center;
 }
 
 p, li {
@@ -14,8 +47,4 @@ p, li {
 img {
     height: 250;
     width: auto;
-}
-
-a {
-    color: #9CDE9F;
 }
