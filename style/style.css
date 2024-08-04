@@ -1,0 +1,21 @@
+html {
+    background-color: #1B2021;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #D1F5BE;
+}
+
+p, li {
+    color: #3AAED8;
+}
+
+img {
+    height: 250;
+    width: auto;
+}
+
+a {
+    color: #9CDE9F;
+}
