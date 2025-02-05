@@ -7,17 +7,35 @@ a {
     color: #00c0a3;
 }
 
-#recipe-title{
+#recipe-title,
+#index-title,
+.footer,
+.recipe-index{
     text-align: center;
     font-weight: bold;
+    background-color:#845ec2 ;
+    border-radius: 10px;
 }
 
-img{
+#finished-dish{
     height: 300px;
     width: auto;
+    border-radius: 10px;
 }
 
+#recipe-title .go-back-icon{
+    width: 30px;
+    height: auto;
+    align-content: left;
+}
 
+.footer{
+    font-weight: lighter;
+}
+.recipe-list-item{
+    list-style-type: none;
+    margin-bottom: 20px;
+}
 /* 
 main purple: #845ec2
 dark background: #4b4453
