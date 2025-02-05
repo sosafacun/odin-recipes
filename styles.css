@@ -1,0 +1,27 @@
+html{
+    background-color: #4b4453;
+    color:#fefedf;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    color: #00c0a3;
+}
+
+#recipe-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+
+/* 
+main purple: #845ec2
+dark background: #4b4453
+light font: #fefedf
+green accent: #00896f
+teal accent: #00c0a3 
+*/
