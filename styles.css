@@ -1,40 +1,73 @@
-html{
+html {
     background-color: #4b4453;
-    color:#fefedf;
+    color: #fefedf;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 a {
-    color: #00c0a3;
+    color: #fefedf;
+    font-weight: lighter;
 }
 
 #recipe-title,
 #index-title,
 .footer,
-.recipe-index{
+.recipe-index {
     text-align: center;
     font-weight: bold;
-    background-color:#845ec2 ;
+    background-color: #845ec2;
     border-radius: 10px;
 }
 
-#finished-dish{
+.recipe-index {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#finished-dish {
     height: 300px;
     width: auto;
     border-radius: 10px;
+    padding: 3px;
+    background-color: #00896f;
+    float: left;
+    margin-right: 10%;
 }
 
-#recipe-title .go-back-icon{
-    width: 30px;
+.go-back-icon {
+    width: 48px;
     height: auto;
-    align-content: left;
+    float: left;
+    display: inline;
+    margin-top: auto;
 }
 
-.footer{
+.footer {
     font-weight: lighter;
+    margin-top: 18em;
 }
-.recipe-list-item{
+
+.recipe-list-item {
     list-style-type: none;
     margin-bottom: 20px;
+    clear: both;
+    display: block;
+}
+
+.finished-dish-container {
+    display: inline;
+    margin-bottom: 15%;
+}
+
+#preparation{
+    margin-top: 15%;
+    display: block;
+    text-align: center;
+}
+
+#ingredients{
+    text-align: center;
+    margin-right: 15%;
 }
 /* 
 main purple: #845ec2
