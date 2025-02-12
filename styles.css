@@ -96,6 +96,12 @@ ul{
     font-weight: bold;
 }
 
+.home-link{
+    font-weight: bold;
+    text-align: center;
+    margin-top: auto;
+}
+
 .colors {
     color: #d9b273;
     color: #daebf2;
