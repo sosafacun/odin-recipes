@@ -1,78 +1,86 @@
 html {
-    background-color: #4b4453;
-    color: #fefedf;
+    background-color: #141004;
+    color: #daebf2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 a {
-    color: #fefedf;
+    color: #daebf2;
     font-weight: lighter;
+    text-decoration: none;
 }
 
-#recipe-title,
+.footer-link{
+    color: #eaf3f8;
+    font-weight: bold;
+}
+
 #index-title,
-.footer,
-.recipe-index {
+.footer{
     text-align: center;
     font-weight: bold;
-    background-color: #845ec2;
+    background-color: #413522;
     border-radius: 10px;
-}
-
-.recipe-index {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-#finished-dish {
-    height: 300px;
-    width: auto;
-    border-radius: 10px;
-    padding: 3px;
-    background-color: #00896f;
-    float: left;
-    margin-right: 10%;
-}
-
-.go-back-icon {
-    width: 48px;
-    height: auto;
-    float: left;
-    display: inline;
-    margin-top: auto;
 }
 
 .footer {
     font-weight: lighter;
-    margin-top: 18em;
 }
 
-.recipe-list-item {
+ul{
     list-style-type: none;
-    margin-bottom: 20px;
-    clear: both;
-    display: block;
 }
 
-.finished-dish-container {
-    display: inline;
-    margin-bottom: 15%;
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
 }
 
-#preparation{
-    margin-top: 15%;
-    display: block;
-    text-align: center;
+.header{
+    background-color: #413522;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    padding: 0px 32px;
 }
 
-#ingredients{
-    text-align: center;
-    margin-right: 15%;
+.content{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
 }
-/* 
-main purple: #845ec2
-dark background: #4b4453
-light font: #fefedf
-green accent: #00896f
-teal accent: #00c0a3 
-*/
+
+.recipe-index{
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    gap: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #826b45 ;
+  }
+
+.colors {
+    color: #d9b273;
+    color: #daebf2;
+    color: #141004;
+    color: #ead2ac;
+    color: #e2c391;
+    color: #ddb97f;
+    color: #d9b273;
+    color: #454959;
+    color: #7388D9;
+    color: #1e1807;
+    color: #e6f1f6	;
+    color: #281f0a;
+    color: #eaf3f8;
+    color: #362c11;
+    color: #eef6f9;
+    color: #090705	;
+    color: #413522	;
+    color: #826b45;
+    color:#bf9c65;
+}
